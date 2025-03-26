@@ -28,8 +28,8 @@
           <!-- Editing Mode -->
           <div *ngIf="editingIndex === i" class="flex gap-2">
             <input [(ngModel)]="editedText" class="border p-1 rounded">
-            <button (click)="saveTask(i)" class="bg-green-500 text-white px-2 py-1 rounded">Save</button>
-            <button (click)="cancelEditing()" class="bg-gray-500 text-white px-2 py-1 rounded">Cancel</button>
+            <button (click)="saveTask(i)" class="bg-green-500 text-white px-2 py-1 rounded">💾 </button>
+            <button (click)="cancelEditing()" class="bg-gray-500 text-white px-2 py-1 rounded">❌ </button>
           </div>
         </div>
   
