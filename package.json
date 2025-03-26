@@ -9,8 +9,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "predeploy": "ng build --output-path=dist/todo-app --base-href /todo-app/",
-    "deploy": "gh-pages -d dist/todo-app"
+    "predeploy": "ng build --output-path=dist --base-href /todo/",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@angular/animations": "^16.2.0",
