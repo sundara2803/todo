@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: white;
+  --text-color: black;
+  --primary-color: #3b82f6;
+}
+
+.theme-dark {
+  --bg-color: #1a202c;
+  --text-color: #e2e8f0;
+  --primary-color: #6366f1;
+}
+
+.theme-blue {
+  --bg-color: #ebf8ff;
+  --text-color: #1e3a8a;
+  --primary-color: #2563eb;
+}
+
+.theme-green {
+  --bg-color: #f0fff4;
+  --text-color: #065f46;
+  --primary-color: #10b981;
+}
+
+.theme-purple {
+  --bg-color: #faf5ff;
+  --text-color: #6b21a8;
+  --primary-color: #9333ea;
+}
+
+.theme-red {
+  --bg-color: #fff5f5;
+  --text-color: #7f1d1d;
+  --primary-color: #dc2626;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
